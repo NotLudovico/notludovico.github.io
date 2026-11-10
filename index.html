@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ludovico Furlanetto — Physicist · Complex Systems</title>
-  <meta name="description" content="Physicist working between stochastic modelling and the complex systems quantitative toolkit. M.Sc. Physics of Complex Systems (Politecnico di Torino / Sorbonne Université), research intern at the Centre d'Économie de la Sorbonne, core developer at Backtes.to and maintainer of Ruut Functions." />
-  <meta property="og:title" content="Ludovico Furlanetto — Physicist · Complex Systems" />
-  <meta property="og:description" content="Physicist working between stochastic modelling and production code." />
+  <title>Ludovico Furlanetto</title>
+  <meta name="description" content="Ludovico Furlanetto, physicist. Incoming Research Assistant in Alex Cayco Gajic's group at the Group for Neural Theory, ENS-PSL; M.Sc. Physics of Complex Systems (Politecnico di Torino / Sorbonne Université)." />
+  <meta property="og:title" content="Ludovico Furlanetto" />
+  <meta property="og:description" content="Physicist. Incoming Research Assistant at the Group for Neural Theory, ENS-PSL." />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/photo.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -20,8 +21,8 @@
       <a class="brand" href="#top">lf<span class="brand-dim">/cv</span></a>
       <nav class="topbar-nav" aria-label="Sections">
         <a href="#research">Research</a>
+        <a href="#software">Software</a>
         <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
       </nav>
       <a class="btn" href="cv/ludovico_furlanetto_cv.pdf" download>Download CV</a>
     </div>
@@ -31,11 +32,12 @@
 
     <!-- ============================ HEADER ============================ -->
     <header class="masthead">
-      <img class="portrait" src="assets/img/photo.jpg" alt="Ludovico Furlanetto" width="132" height="132" />
-      <p class="kicker">Curriculum Vitae · last updated <time datetime="2026-09-21">September 2026</time></p>
+      <img class="portrait" src="assets/img/photo.jpg" alt="Ludovico Furlanetto" width="168" height="168" />
+      <div class="hero-text">
       <h1>Ludovico&nbsp;Furlanetto</h1>
-      <p class="role">Physicist · Complex Systems</p>
-      <p class="tagline">Physicist working between stochastic modelling and production code. Drawn to problems where theory has to survive contact with real data.</p>
+      <p class="role">Incoming Research Assistant · Group for Neural Theory, ENS-PSL</p>
+      <p class="bio">I&rsquo;m a physicist interested in the collective dynamics of large interacting systems, and in what statistical physics can say about them.</p>
+      <p class="bio">From January 2027 I&rsquo;ll be a Research Assistant in <a href="https://caycogajiclab.github.io/" target="_blank" rel="noopener">Alex Cayco Gajic</a>&rsquo;s group at the Group for Neural Theory, ENS-PSL, working on the dynamics of the pullback metric during learning. I recently completed the M.Sc. in Physics of Complex Systems (Politecnico di Torino / Sorbonne Université). In my thesis at the Centre d&rsquo;Économie de la Sorbonne, with <a href="https://scholar.google.com/citations?user=jggs780AAAAJ" target="_blank" rel="noopener">Fabián Aguirre-López</a>, I used dynamical mean-field theory to ask how much of firm-growth statistics a minimal model can explain.</p>
       <div class="head-links">
         <a class="text-link" href="mailto:ludovico.furlanetto@gmail.com">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-hidden="true"><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
@@ -52,39 +54,72 @@
           <span>in/notludovico</span>
         </a>
       </div>
-      <p class="head-actions">
-        <a class="btn" href="cv/ludovico_furlanetto_cv.pdf" download>Download CV &#8595;</a>
-      </p>
+      </div>
     </header>
 
-    <!-- ============================ EXPERIENCE ============================ -->
+    <!-- ============================ RESEARCH ============================ -->
     <section class="section" id="research" aria-label="Research">
       <h2 class="section-title"><span class="section-code">01</span> Research</h2>
 
-      <!-- CES Research Intern -->
+      <article class="project">
+        <div class="project-body">
+          <p class="project-tag">Upcoming · from 01/2027</p>
+          <h3 class="project-title">Dynamics of the pullback metric during learning</h3>
+          <p class="project-desc">The pullback metric describes the geometry a network&rsquo;s map induces on its inputs: which directions it stretches and which it compresses. This project studies how that geometry evolves as the network learns.</p>
+          <p class="cite">Research Assistant, Group for Neural Theory, ENS-PSL, with <a href="https://caycogajiclab.github.io/" target="_blank" rel="noopener">A. Cayco Gajic</a>.</p>
+        </div>
+      </article>
+
+      <article class="project has-fig">
+        <figure class="project-fig">
+          <img src="assets/img/thesis-concept.png" alt="A sparse network of firms of different sizes, linked mostly by competitive and a few cooperative interactions, above the relative Lotka–Volterra equation with its growth, self-limitation, interactions and entry terms labelled." width="1217" height="777" loading="lazy" />
+        </figure>
+        <div class="project-body">
+          <p class="project-tag">M.Sc. thesis · 02/2026 – 06/2026</p>
+          <h3 class="project-title">Can a simple model explain economics?</h3>
+          <p class="project-desc">The thesis treats firm growth as a stochastic many-body problem: a relative generalized Lotka&ndash;Volterra model of competing firms whose steady state reproduces the non-Gaussian growth and volatility statistics measured in Compustat firm-level data. Because the full many-firm dynamics are intractable, I derived a dynamical mean-field theory (DMFT) that reduces the problem to a self-consistent single-firm stochastic process, validated the solver against agent-based simulations, and open-sourced the Python package behind it.</p>
+          <p class="cite">L. Furlanetto (2026). M.Sc. thesis, Centre d&rsquo;Économie de la Sorbonne, Université Paris 1 Panthéon-Sorbonne. Supervisors: <a href="https://scholar.google.com/citations?user=jggs780AAAAJ" target="_blank" rel="noopener">F. Aguirre-López</a>, L. Dall&rsquo;Asta.
+            <span class="cite-links">[<a href="papers/furlanetto_ludovico_thesis.pdf" target="_blank" rel="noopener">PDF</a>] [<a href="https://github.com/NotLudovico/dynamical-model-for-economics" target="_blank" rel="noopener">code</a>]</span></p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============================ SOFTWARE ============================ -->
+    <section class="section" id="software" aria-label="Software">
+      <h2 class="section-title"><span class="section-code">02</span> Software</h2>
+
       <article class="entry">
         <div class="entry-head">
           <div class="logos">
-            <img class="logo" src="assets/logos/logo-paris1.svg" alt="Université Paris 1 Panthéon-Sorbonne" height="46" />
+            <img class="logo backtesto-logo" src="assets/logos/logo-backtesto.png" alt="Backtes.to" />
           </div>
           <div class="entry-meta">
-            <span class="entry-org">Centre d&rsquo;Économie de la Sorbonne — Université Paris 1 Panthéon-Sorbonne</span>
-            <span class="entry-deg">Research Intern — Modelling Firm Growth</span>
-            <span class="entry-when">Paris, France — 02/2026 – 06/2026</span>
+            <span class="entry-org">Backtes.to — Financial Analysis SaaS</span>
+            <span class="entry-deg">Core Developer, 2-person team</span>
+            <span class="entry-when">02/2026 – Present · <a href="https://backtes.to" target="_blank" rel="noopener">backtes.to</a></span>
           </div>
         </div>
-        <p class="entry-note">Supervisor: <strong><a href="https://scholar.google.com/citations?user=jggs780AAAAJ" target="_blank" rel="noopener">Prof. Fabián Aguirre-López</a></strong>.</p>
-        <p class="entry-note">How much of the economy can a minimal model explain? The thesis treats firm growth as a stochastic many-body problem: a relative generalized Lotka&ndash;Volterra model of competing firms whose steady state reproduces the non-Gaussian growth and volatility statistics measured in Compustat firm-level data. Because the full many-firm dynamics are intractable, I derived a Dynamic Mean&ndash;Field Theory (DMFT) that reduces the problem to a self-consistent single-firm stochastic process, validated the solver against agent-based simulations, and open-sourced the Python package behind it.</p>
-        <p class="entry-note thesis-note">
-          <span><strong>Title</strong>: <em class="thesis-title">Can a simple model explain economics?</em></span>
-          <a class="btn btn-sm" href="papers/furlanetto_ludovico_thesis.pdf" download>Download thesis (PDF) &#8595;</a>
-        </p>
+        <p class="entry-desc">Backtes.to is a European ETF portfolio backtester: you build an allocation, run a historical backtest, and get Compound Return, volatility and Sharpe out of it. The platform is built in JavaScript and Next.js on a Supabase (Postgres) backend and serves 50,000+ monthly visits. My focus has been on the backend — parallelizing backtest execution across servers and cutting the compute cost of scanning millions of rows of financial data.</p>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <div class="logos">
+            <img class="logo" src="assets/logos/cargo.png" alt="Cargo" />
+          </div>
+          <div class="entry-meta">
+            <span class="entry-org">Ruut Functions — Rust numerics library</span>
+            <span class="entry-deg">Maintainer</span>
+            <span class="entry-when">Ongoing · <a href="https://crates.io/crates/ruut-functions" target="_blank" rel="noopener">crates.io/crates/ruut-functions</a></span>
+          </div>
+        </div>
+        <p class="entry-desc">High-performance Rust library for numerical integration and symbolic differentiation; 10,000+ downloads, built around memory safety and computational speed.</p>
       </article>
     </section>
 
     <!-- ============================ EDUCATION ============================ -->
     <section class="section" id="education" aria-label="Education">
-      <h2 class="section-title"><span class="section-code">02</span> Education</h2>
+      <h2 class="section-title"><span class="section-code">03</span> Education</h2>
 
       <!-- Politecnico di Torino -->
       <article class="entry">
@@ -209,7 +244,7 @@
         </div>
         <p class="entry-note thesis-note">
           <span><strong>Final grade:</strong> 110/110. Thesis: <em>&ldquo;Modello di tipo dimero e applicazione al modello di Ising&rdquo;</em></span>
-          <a class="btn btn-sm" href="papers/furlanetto_ludovico_bs_thesis.pdf" download>Download thesis (PDF) &#8595;</a>
+          <a class="btn btn-sm" href="papers/furlanetto_ludovico_bs_thesis.pdf" target="_blank" rel="noopener">Thesis (PDF)</a>
         </p>
         <details class="courses">
           <summary>Courses (21) <span class="caret">▾</span></summary>
@@ -244,41 +279,6 @@
     </section>
 
 
-
-    <!-- ============================ PROJECTS ============================ -->
-    <section class="section" id="projects" aria-label="Projects">
-      <h2 class="section-title"><span class="section-code">03</span> Projects</h2>
-
-      <article class="entry">
-        <div class="entry-head">
-          <div class="logos">
-            <img class="logo backtesto-logo" src="assets/logos/logo-backtesto.png" alt="Backtes.to" />
-          </div>
-          <div class="entry-meta">
-            <span class="entry-org">Backtes.to — Financial Analysis SaaS</span>
-            <span class="entry-deg">Core Developer, 2-person team</span>
-            <span class="entry-when">02/2026 – Present · <a href="https://backtes.to" target="_blank" rel="noopener">backtes.to</a></span>
-          </div>
-        </div>
-        <p class="entry-desc">Backtes.to is a European ETF portfolio backtester: you build an allocation, run a historical backtest, and get Compound Return, volatility and Sharpe out of it. The platform is built in JavaScript and Next.js on a Supabase (Postgres) backend and serves 50,000+ monthly visits. My focus has been on the backend — parallelizing backtest execution across servers and cutting the compute cost of scanning millions of rows of financial data.</p>
-      </article>
-
-      <article class="entry">
-        <div class="entry-head">
-          <div class="logos">
-            <img class="logo" src="assets/logos/cargo.png" alt="Cargo" />
-          </div>
-          <div class="entry-meta">
-            <span class="entry-org">Ruut Functions — Rust numerics library</span>
-            <span class="entry-deg">Maintainer</span>
-            <span class="entry-when">Ongoing · <a href="https://crates.io/crates/ruut-functions" target="_blank" rel="noopener">crates.io/crates/ruut-functions</a></span>
-          </div>
-        </div>
-        <p class="entry-desc">High-performance Rust library for numerical integration and symbolic differentiation; 10,000+ downloads, built around memory safety and computational speed.</p>
-      </article>
-
-      </article>
-    </section>
 
     <!-- ============================ STACK & MORE ============================ -->
     <section class="section" id="stack" aria-label="Stack &amp; more">
@@ -356,11 +356,16 @@
       </div>
     </section>
 
+    <!-- ============================ CONTACT ============================ -->
+    <section class="section" id="contact" aria-label="Contact">
+      <h2 class="section-title"><span class="section-code">05</span> Contact</h2>
+      <p class="contact-note">Happy to talk about disordered systems, dynamical mean-field theory, the geometry of learning, or econophysics. Write to <a href="mailto:ludovico.furlanetto@gmail.com">ludovico.furlanetto@gmail.com</a>.</p>
+    </section>
+
   </main>
 
   <footer class="footer">
-    <p>I hereby consent to the processing of personal data in accordance with GDPR (EU) 2016/679.</p>
-    <p class="muted">&copy; <span id="year"></span> Ludovico Furlanetto · Built with plain HTML &amp; CSS</p>
+        <p class="muted">&copy; <span id="year"></span> Ludovico Furlanetto · Built with plain HTML &amp; CSS</p>
   </footer>
 
   <script src="js/main.js"></script>
