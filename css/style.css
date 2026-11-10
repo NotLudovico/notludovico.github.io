@@ -110,6 +110,17 @@ a:hover { color: var(--accent-deep); text-decoration: underline; text-underline-
   text-align: center;
 }
 
+.portrait {
+  display: block;
+  width: 132px;
+  height: 132px;
+  margin: 0 auto 22px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--rule);
+  box-shadow: 0 0 0 5px var(--paper), 0 0 0 6px var(--rule);
+}
+
 .kicker {
   font-family: var(--mono);
   font-size: 0.74rem;
